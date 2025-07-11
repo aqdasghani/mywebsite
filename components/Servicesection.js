@@ -20,7 +20,7 @@ const services = [
         desc: "I build scalable web apps that solve real problems — from backend to frontend.",
         pointers: ["MERN Stack", "API Integration", "Authentication", "Managing Data and Databses"]
     },
-    
+
 ];
 
 
@@ -43,7 +43,9 @@ const Servicesection = () => {
 
                             {service.pointers.map((pointer, index) => (
                                 <div key={index}>
-                                    <li>{pointer}</li>
+                                 
+                                        <li>{pointer}</li>
+                                  
                                 </div>
                             ))}
 
