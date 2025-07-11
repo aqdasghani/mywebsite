@@ -1,6 +1,7 @@
 import React from 'react'
 import { TiltCard } from './gsap/tilt-card'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const projects = [
