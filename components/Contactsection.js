@@ -7,13 +7,13 @@ const Contactsection = () => {
             <div>
                 <div className='text-center text-white '>
                     <h1 className='text-5xl font-bold  sm:py-5 mt-15'>Get in touch</h1>
-                    <p className='text-xl px-5 sm:px-20 py-5'>Have a project in mind? I'd love to hear from you. Send me a message and let's discuss how we can work together.</p>
+                    <p className='text-xl px-5 sm:px-20 py-5'>Have a project in mind? I&apos;d love to hear from you. Send me a message and let&apos;s discuss how we can work together.</p>
                 </div>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2'>
                 <div className='left p-10'>
-                    <h1 className='font-bold text-3xl text-white '>Let's Connect</h1>
+                    <h1 className='font-bold text-3xl text-white '>Let&apos;s Connect</h1>
                     <h1 className='text-white font-bold mt-10 text-2xl'>Email</h1>
                     <div className='flex items-center gap-2 mt-5'>
                         <lord-icon

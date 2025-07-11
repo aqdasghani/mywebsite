@@ -30,15 +30,15 @@ const About = () => {
             className="backdrop-blur-lg  bg-opacity-5 p-8 rounded-3xl shadow-lg border border-white/10 space-y-6"
           >
             <p className="text-2xl font-bold">
-              I don't just build websites — I craft digital experiences that drive results.
+              I don&apos;t just build websites — I craft digital experiences that drive results.
             </p>
 
             <p className='text-xl'>
-              Hi, I’m <strong>Aqdas Ghani</strong> — a freelance web developer helping businesses and individuals bring their ideas to life through custom websites and web applications.
+              Hi, I&apos;m <strong>Aqdas Ghani</strong> — a freelance web developer helping businesses and individuals bring their ideas to life through custom websites and web applications.
               From design to deployment, I handle everything personally to ensure high attention and quality.
             </p>
 
-            {/* Feature Cards */}
+         
             <div className="grid sm:grid-cols-2 gap-4 text-xl">
               {[
                 'Custom Website Development',
@@ -61,7 +61,7 @@ const About = () => {
             </div>
 
             <p className="pt-4 text-xl">
-              Whether you're just starting or scaling up, I simplify the process and deliver a tailored solution.
+              Whether you&apos;re just starting or scaling up, I simplify the process and deliver a tailored solution.
             </p>
 
             <p className="font-bold text-2xl">Why work with me?</p>
@@ -73,7 +73,7 @@ const About = () => {
             </ul>
 
             <p className="pt-4 text-xl">
-              You're not just hiring a developer — you're gaining a long-term partner in your digital journey.
+              You&apos;re not just hiring a developer — you&apos;re gaining a long-term partner in your digital journey.
             </p>
 
             <div>

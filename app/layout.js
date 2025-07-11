@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { StarsBackground } from "@/components/animate-ui/backgrounds/stars";
 import { ScrollProgress } from "@/components/animate-ui/components/scroll-progress";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +31,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
 
-        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        
+        <Script src="https://cdn.lordicon.com/lordicon.js"/>
       </body>
     </html>
   );

@@ -47,7 +47,7 @@ const Projectsection = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 p-4 sm:p-8 gap-10 flex-wrap'>
                     {projects.map((project, index) => {
                         return <TiltCard key={index} className="bg-card min-w-[300px] min-h-[350px] rounded-xl border p-4 sm:w-full sm:min-h-[400px] md:min-h-[300px] lg:min-h-[400px]" highlightClassName="  hidden sm:block bg-white/15 dark:bg-white/2">
-                            <img
+                            <Image
                                 className="mt-2 w-full h-full rounded object-cover"
                                 src={project.src}
                                 alt="Image"
