@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import { StarsBackground } from "@/components/animate-ui/backgrounds/stars";
 import { ScrollProgress } from "@/components/animate-ui/components/scroll-progress";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
