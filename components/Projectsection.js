@@ -52,10 +52,11 @@ const Projectsection = () => {
                                 className="mt-2 w-full h-full rounded object-cover"
                                 src={project.src}
                                 alt="Image"
-                                width={100}
-                                height={100}
-
+                                width={500}
+                                height={300}
+                                quality={100}
                             />
+
                             <h1 className="text-muted-foreground text-xl font-bold mt-3 italic">{project.heading}</h1>
                             <p className="mt-1 text-sm leading-tight">
                                 {project.para}
@@ -65,13 +66,13 @@ const Projectsection = () => {
                                     <Link href={project.codelink}>
                                         <button className='rounded-xl px-6 py-3 sm:px-6 sm:py-3 md:px-4 md:py-2 bg-black text-white text-sm cursor-pointer flex items-center gap-2'>
                                             <lord-icon
-                                          
+
                                                 src="https://cdn.lordicon.com/jjxzcivr.json"
                                                 trigger="loop"
                                                 delay="500"
                                                 colors="primary:#ffffff,secondary:#ffffff"
                                                 style={{ width: 23, height: 23 }}>
-                                    
+
                                             </lord-icon>
                                             Source Code
                                         </button>
@@ -85,7 +86,7 @@ const Projectsection = () => {
                                                 src="https://cdn.lordicon.com/hmqxevgf.json"
                                                 trigger="loop"
                                                 colors="primary:#ffffff,secondary:#ffffff"
-                                               style={{ width: 23, height: 23 }}>
+                                                style={{ width: 23, height: 23 }}>
                                             </lord-icon>
                                             Live Link
                                         </button>
