@@ -23,14 +23,14 @@ const projects = [
     {
         src: "/weatherapp.png",
         heading: "Weather App",
-        para: "Enter any URL and get the generated QR instantly.",
+        para: "A weather app that displays real-time weather details for any city.",
         codelink: "https://github.com/aqdasghani/weather-app",
         livelink: "https://weather-app-bice-three-99.vercel.app/"
     },
     {
         src: "/notesapp.png",
         heading: "Notes App",
-        para: "Enter any URL and get the generated QR instantly.",
+        para: "A note-taking app to save your notes instantly.",
         codelink: "https://github.com/aqdasghani/notesapp",
         livelink: "https://notesapp-six-pied.vercel.app/"
     },
@@ -47,7 +47,7 @@ const Projectsection = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 p-4 sm:p-8 gap-10 flex-wrap'>
                     {projects.map((project, index) => {
-                        return <TiltCard key={index} className="bg-card w-full min-h-[350px] rounded-xl border p-4 sm:w-full sm:min-h-[400px] md:min-h-[300px] lg:min-h-[400px]" highlightClassName="  hidden sm:block bg-white/15 dark:bg-white/2">
+                        return <TiltCard key={index} className="bg-card w-full min-h-[350px] rounded-xl border p-4 sm:w-full sm:min-h-[400px] md:min-h-[300px] lg:min-h-[400px]" highlightClassName="  hidden sm:block ">
                             <Image
                                 className="mt-2 w-full h-full rounded object-cover"
                                 src={project.src}
