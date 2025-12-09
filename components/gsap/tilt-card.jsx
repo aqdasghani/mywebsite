@@ -11,7 +11,7 @@ export const TiltCard = ({
     highlightClassName,
     className,
     wrapperClassName,
-    maxTilt = 15,
+    maxTilt = 11,
     ...props
 }) => {
     const containerRef = useRef(null);
