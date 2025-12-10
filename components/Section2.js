@@ -43,12 +43,12 @@ const Section2 = () => {
         </div>
       </div>
 
-      <section className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 px-5 sm:px-10 pb-10 md:space-x-4 lg:space-x-0">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-5 sm:px-10 pb-10">
         {skills.map((skill, index) => (
-          <TiltCard 
-            key={index} 
-            className=" bg-white w-full h-[150px] mb-5 border rounded-xl p-4 sm:w-65 md:w-[320px] lg:w-65 text-black sm:min-h-[200px] md:min-h-[170px] lg:min-h-[200px]" 
-            highlightClassName="hidden lg:block "
+          <TiltCard
+            key={index}
+            className="bg-white w-full min-h-[180px] mb-5 border rounded-xl p-4 text-black flex flex-col justify-center"
+            highlightClassName="hidden lg:block"
           >
             <div>
               <div className="text-3xl mb-4">{skill.icon}</div>
@@ -58,6 +58,7 @@ const Section2 = () => {
           </TiltCard>
         ))}
       </section>
+
 
     </div>
   )

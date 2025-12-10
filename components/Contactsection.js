@@ -11,7 +11,7 @@ const Contactsection = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
                 <div className='left p-10'>
                     <h1 className='font-bold text-3xl text-white '>Let&apos;s Connect</h1>
                     <h1 className='text-white font-bold mt-10 text-2xl'>Email</h1>
@@ -65,16 +65,16 @@ const Contactsection = () => {
                             <label>
                                 Name
                                 <br />
-                                <input type="text" name="Name" className=' border border-gray-400 rounded-sm border-solid my-2 w-full md:w-full sm:min-w-[500px] p-2' placeholder='Your full name' required />
+                                <input type="text" name="Name" className=' border border-gray-400 rounded-sm border-solid my-2 w-full md:w-full  p-2' placeholder='Your full name' required />
                             </label>
                             <label className='mt-4'>
                                 Email
                                 <br />
-                                <input type="email" name="email" className=' border border-gray-400 rounded-sm border-solid my-2 w-full md:w-full sm:min-w-[500px] p-2' placeholder='Your best email ' required />
+                                <input type="email" name="email" className=' border border-gray-400 rounded-sm border-solid my-2 w-full md:w-full  p-2' placeholder='Your best email ' required />
                             </label>
                             <label>
                                 Message
-                                <textarea name="message" className=' border border-gray-400 rounded-sm border-solid my-2 w-full sm:min-w-[500px] md:w-full min-h-[200px] p-2' placeholder='Enter your requirements here.' required></textarea>
+                                <textarea name="message" className=' border border-gray-400 rounded-sm border-solid my-2 w-full  md:w-full min-h-[200px] p-2' placeholder='Enter your requirements here.' required></textarea>
                             </label>
 
                             <button type="submit" className='bg-black text-white rounded-xl py-3 cursor-pointer'>Yes! connect with me</button>
